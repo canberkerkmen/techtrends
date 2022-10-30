@@ -1,7 +1,7 @@
 FROM python:3.8
 LABEL maintainer="Canberk Erkmen"
 
-COPY . /app
+COPY techtrends/ /app
 WORKDIR /app
 
 #install requirements
