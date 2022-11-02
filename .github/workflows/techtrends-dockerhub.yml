@@ -30,6 +30,6 @@ jobs:
         with:
           context: .
           file: techtrends/Dockerfile
-          platforms: linux/amd64
+          platforms: linux/arm64
           push: true
           tags: canberkerkmen/techtrends:latest
