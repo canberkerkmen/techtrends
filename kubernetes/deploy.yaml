@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - image: canberkerkmen/techtrends
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         name: techtrends
         resources:
           limits:
