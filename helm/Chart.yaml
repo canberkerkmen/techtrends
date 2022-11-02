@@ -1,0 +1,7 @@
+apiVersion: v1
+name: techtrends
+description: techtrends demo project
+version: 1.0.0
+maintainers:
+- name: Canberk Erkmen 
+  email: canberk.erkmen@gmail.com
