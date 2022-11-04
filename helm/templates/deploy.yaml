@@ -3,6 +3,11 @@ kind: Deployment
 metadata:
   name: techtrends
   namespace: {{ .Values.namespace.name }} 
+  labels:
+    app.kubernetes.io/managed-by: Helm
+  annotations:
+    meta.helm.sh/release-name: techtrends
+    meta.helm.sh/release-namespace: {{ .Values.namespace.name }} 
 spec:
   replicas: {{ .Values.replicaCount }} 
   selector:
